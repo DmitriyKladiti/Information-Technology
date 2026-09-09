@@ -1,2 +1,1 @@
-# Information-Technology
-Информационные Технологии 
+# Information-Technology Информационные Технологии 
