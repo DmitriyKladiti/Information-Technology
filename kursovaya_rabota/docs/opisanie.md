@@ -13,7 +13,7 @@
 
 ## 2. Схема работы
 
-Схема работы ![](docs/scheme.png)
+Схема работы ![](scheme.png)
 
 Посетитель приходит из соцсетей или по QR-коду по ссылке с UTM-метками.
 Сайт отправляет события в GA4, а заявку — в Google Таблицу через Apps Script.
@@ -23,47 +23,47 @@
 Сайт из 8 страниц создан с помощью Cgat-GPT и доработан вручную.
 Опубликован на Vercel, обновляется после каждого push.
 
-Главная страница ![](screens/kursovaya/01-site-home.png)
-Сайт на телефоне, 375 px ![](screens/kursovaya/02-site-mobile.png)
-Lighthouse ![](screens/lighthouse/lighthouse-mobile.png)
+Главная страница ![](../screens/kursovaya/01-site-home.png)
+Сайт на телефоне, 375 px ![](../screens/kursovaya/02-site-mobile.png)
+Lighthouse ![](../screens/lighthouse/lighthouse-mobile.png)
 
 ## 4. Аналитика GA4
 
 Настроено 16 событий, из них своих — 10. Ключевые события: 3.
 Каждое событие проверено в DebugView и RealTime.
 
-События в DebugView![](screens/ga4/generate_lead.png)
-Пользовательские параметры![](screens/kursovaya/03-custom-definitions.png)
+События в DebugView![](../screens/ga4/generate_lead.png)
+Пользовательские параметры![](../screens/kursovaya/03-custom-definitions.png)
 
 ## 5. UTM-ссылки и соцсети
 
 В реестре 5 ссылок. 3 тестовые, ссылка, зашитая в qr-код, и одна опубликованная в Instagram в reel с подключенным ManyChat.
 
-Реестр ссылок![](screens/utm/registry.png)
-Источники в Traffic acquisition![](screens/utm/traffic-acquisition.png) (Из гугл аналитики источник трафика)
+Реестр ссылок![](../screens/utm/registry.png)
+Источники в Traffic acquisition![](../screens/utm/traffic-acquisition.png) (Из гугл аналитики источник трафика)
 
 ## 6. Заявки
 
 Форма отправляет заявку в Apps Script, тот проверяет поля и записывает
 строку в лист `leads` вместе с метками. Повторная отправка не создаёт дубль.
 
-Форма на сайте![](screens/kursovaya/04-form.png)
-Заявка в таблице с метками![](screens/kursovaya/05-lead-in-sheet.png)
+Форма на сайте![](../screens/kursovaya/04-form.png)
+Заявка в таблице с метками![](../screens/kursovaya/05-lead-in-sheet.png)
 
 ## 7. Автоответы в Instagram
 
 Комментарий «УХОД» под Reel запускает ответ в комментариях и сообщение
 в Direct с кнопкой на сайт. Вторая ветка — слово «ОФИС».
 
-Ответ в комментариях![](screens/instagram/comment-reply.png)
-Сообщение в Direct с кнопкой![](screens/instagram/dm-button.png)
+Ответ в комментариях![](../screens/instagram/comment-reply.png)
+Сообщение в Direct с кнопкой![](../screens/instagram/dm-button.png)
 
 ## 8. Отчёты и дашборд
 
 Воронка показала наибольшую потерю между загрузкой каталога и оформлением доставки (75 %).
 Больше всего заявок принёс канал instagram.
 
-Воронка в Explore![](screens/explore/funnel-open.png)
+Воронка в Explore![](../screens/explore/funnel-open.png)
 
 ## 9. Что получил бизнес
 
@@ -87,6 +87,6 @@ Lighthouse ![](screens/lighthouse/lighthouse-mobile.png)
 
 Почему не получилось:
 
-![](screens/excuse/excuse.png)
+![](../screens/excuse/excuse.png)
 
 ИИ использовался для: создания кода основных страниц сайта, создания кода событий
